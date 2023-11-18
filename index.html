@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Описание вашего кафе">
+  <meta name="keywords" content="кафе, меню, отзывы">
+  <title>Название вашего кафе</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#menu">Меню</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>Название вашего кафе</h1>
+      <p>Краткое описание вашего кафе и его особенностей.</p>
+      <img src="kafe_1.jpg" width="400px" height="400px" alt="Интерьер кафе" >
+    </section>
+
+    <section id="menu">
+      <h2>Меню</h2>
+      <ul>
+        <li>Пельмени</li>
+        <li>Куриное филе с жаренной картошкой</li>
+        <li>Чебурек</li>
+        <!-- Добавьте остальные элементы меню -->
+      </ul>
+    </section>
+
+    <section id="reviews">
+      <h2>Отзывы:</h2>
+      <article>
+        <h4>Евгений</h4>
+        <p>Очень хорошее и приятное кафе, приятный дизайн и хорошее меню</p>
+      </article>
+      <article>
+        <h4>Ольга</h4>
+        <p>Приятный персонал, а также радующие глаз цены</p>
+      </article>
+      <!-- Добавьте другие отзывы -->
+    </section>
+  </main>
+
+  <aside>
+    <h3>Контакты</h3>
+    <p>Адрес: улица, город, страна</p>
+    <p>Телефон: +7 123 456-78-90</p>
+    <p>Часы работы: пн-пт: 9:00-18:00, сб-вс: 10:00-15:00</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18874.301981625173!2d37.6014298!3d55.7430515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM5JzIwLjMiTiAzN8KwMTUnMjMuMCJF!5e0!3m2!1sen!2sru!4v1589213926984!5m2!1sen!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </aside>
+  
+  <section id="contact">
+    <h2>Обратная связь</h2>
+    <form action="submit.php" method="POST">
+      <p>
+        <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+      </p>
+      
+      <p><label for="email">Email:</label>
+      <input type="email" id="email" name="email" required></p>
+      
+      <p><label for="message">Сообщение:</label>
+      <textarea id="message" name="message" required></textarea> </p>
+      
+      <p><button type="submit">Отправить</button></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2020 Название вашего кафе. Все права защищены.</p>
+    <ul>
+      <li><a href="https://www.facebook.com/">Facebook</a></li>
+      <li><a href="https://www.instagram.com/">Instagram</a></li>
+      <li><a href="https://twitter.com/">Twitter</a></li>
+    </ul>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
